@@ -25,12 +25,6 @@ export default ({ config }: ConfigContext): Partial<ExpoConfig> => {
           domain: "EXPO_PUBLIC_AUTH0_DOMAIN",
         },
       ],
-      [
-        "@rnmapbox/maps",
-        {
-          RNMapboxMapsDownloadToken: "EXPO_PUBLIC_MAPBOX_ACCESS_TOKEN",
-        },
-      ],
       require("./plugins/withSplashScreen").withSplashScreen,
     ],
   }
