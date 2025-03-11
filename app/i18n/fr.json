@@ -1,0 +1,183 @@
+{
+    "admin.sidebar.group.user_management": "",
+    "admin.sidebar.item.logout": "",
+    "admin.sidebar.item.users": "",
+    "admin.views.user_management.remove_user_from_org.confirmation_message": "",
+    "admin.views.user_management.remove_user_from_org.confirmation_title": "",
+    "admin.views.user_management.title": "",
+    "admin.views.user_management.users_search.placeholder": "",
+    "apply": "",
+    "assign_to": "",
+    "assigned_to": "",
+    "batch_actions.actions.ACTIVATE_INSIGHTS": "",
+    "batch_actions.actions.ADD_TO_EXISTING_WORK_ORDER": "",
+    "batch_actions.actions.ADD_TO_WORKORDER": "",
+    "batch_actions.actions.ARCHIVE_INSIGHTS": "",
+    "batch_actions.actions.COMPLETE_WORK_ITEMS": "",
+    "batch_actions.actions.CREATE_WORK_ORDER": "",
+    "batch_actions.validation.all_invalid_one": "",
+    "batch_actions.validation.all_invalid_other": "",
+    "batch_actions.validation.cannot_proceed": "",
+    "batch_actions.validation.confirm_proceed": "",
+    "batch_actions.validation.dialog_title.ACTIVATE_INSIGHTS": "",
+    "batch_actions.validation.dialog_title.ADD_TO_EXISTING_WORK_ORDER": "",
+    "batch_actions.validation.dialog_title.ARCHIVE_INSIGHTS": "",
+    "batch_actions.validation.dialog_title.COMPLETE_WORK_ITEMS": "",
+    "batch_actions.validation.dialog_title.CREATE_WORK_ORDER": "",
+    "batch_actions.validation.failure_reasons.already_completed_one": "",
+    "batch_actions.validation.failure_reasons.already_completed_other": "",
+    "batch_actions.validation.failure_reasons.insight_already_in_workinsight_one": "",
+    "batch_actions.validation.failure_reasons.insight_already_in_workinsight_other": "",
+    "batch_actions.validation.failure_reasons.must_share_delivery": "",
+    "batch_actions.validation.failure_reasons.part_of_workorder": "",
+    "batch_actions.validation.failures_one": "",
+    "batch_actions.validation.failures_other": "",
+    "batch_actions.validation.summary": "",
+    "buttons.add": "",
+    "buttons.cancel": "",
+    "buttons.complete": "",
+    "buttons.continue": "",
+    "buttons.create": "",
+    "buttons.delete": "",
+    "buttons.next": "Suivant",
+    "buttons.ok": "",
+    "clear_all": "",
+    "dashboard": {
+        "work": {
+            "progress_summary_chart_title": "",
+            "work_dynamic_chart_title": ""
+        }
+    },
+    "empty_list_message": "",
+    "filter_and_sort": "",
+    "grid.archive.activate_insights_failure": "",
+    "grid.archive.activate_insights_success": "",
+    "grid.archive.archive_insights_failure": "",
+    "grid.archive.archive_insights_success": "",
+    "grid.archive.title": "",
+    "grid.options.unarchive_insight": "",
+    "grid.work_order.assignee.unassigned": "",
+    "grid": {
+        "aggregation": {
+            "average": "MOYENNE",
+            "max": "MAX",
+            "min": "MIN",
+            "total": "TOTAL"
+        },
+        "create_workorder_dialog": {
+            "add_to_existing_error_toast": "",
+            "add_to_existing_success_toast_one": "",
+            "add_to_existing_success_toast_other": "",
+            "add_to_existing_tab_title": "",
+            "affected_span_length": "Longueur de la portée affectée",
+            "affected_veg_vol": "Volume de légumes affecté",
+            "assign_to": "Attribuer à",
+            "assign_work_items_one": "",
+            "assign_work_items_other": "",
+            "based_on_one": "",
+            "based_on_other": "Basé sur {{selectedRowCount}}",
+            "cancel": "Annuler",
+            "create": "Créer",
+            "create_error_toast": "",
+            "create_success_toast": "",
+            "create_tab_title": "",
+            "n_insights_one": "",
+            "n_insights_other": "",
+            "name": "Nom de l'ordre de travail",
+            "name_error": "Le bon de travail doit comporter au moins 2 caractères",
+            "name_placeholder": "WO123",
+            "notes": "Ajouter une note",
+            "notes_placeholder": "N'hésitez pas à fournir plus de détails...",
+            "schedule_work_items_one": "",
+            "schedule_work_items_other": "",
+            "scheduled": "Prévu",
+            "scheduled_date_error": "La date ou la plage de dates est requise",
+            "scheduled_placeholder": "Sélectionnez une date ou une plage de dates",
+            "select_workorder": "",
+            "title": "Nouvel ordre de travail"
+        },
+        "filter": {
+            "all": "Tout",
+            "selected": "Sélectionné",
+            "visible": "Visible"
+        },
+        "insight": "Perspicacité",
+        "options": {
+            "archive_insight": "Archiver l'aperçu ({{selectedRowCount}})",
+            "create_workorder": "Créer un ordre de travail",
+            "existing_workorder": "Ajouter des insights au WO existant",
+            "export_all": "Exporter tout",
+            "export_selected": "Exporter sélectionné ({{selectedRowCount}})",
+            "logout": "Déconnexion"
+        },
+        "search": {
+            "placeholder": "Rechercher..."
+        }
+    },
+    "insights": {
+        "title": "Perspectives"
+    },
+    "n_workitems_one": "",
+    "n_workitems_other": "",
+    "n_workorders_one": "",
+    "n_workorders_other": "",
+    "roles": {
+        "MEMBER": "",
+        "ORG_ADMIN": ""
+    },
+    "select": "",
+    "user_management.actions.remove_user_from_org": "",
+    "user_management": {
+        "invite_dialog": {
+            "add_more_button": "",
+            "email_label": "",
+            "invite_explanation_text": "",
+            "login_method_label": "",
+            "role_label": "",
+            "submit_button": "",
+            "title": ""
+        },
+        "login_methods": {
+            "google": ""
+        }
+    },
+    "user_menu.avatar.name.guest": "",
+    "user_menu.item.account_settings": "",
+    "user_menu.item.logout": "",
+    "user_menu.item.projects": "",
+    "user_menu.item.send_feedback": "",
+    "user_menu.item.switch_organization": "",
+    "user_menu.item.terms_and_policies": "",
+    "user_menu.item.user_management": "",
+    "workitems.bulkComplete": "",
+    "workitems.complete": "",
+    "workitems.title": "",
+    "workitems": {
+        "card": {
+            "assignee": "",
+            "days_left": "",
+            "due_date": "",
+            "estimated_work_effort": "",
+            "n_a": ""
+        },
+        "drawer": {
+            "workitems": ""
+        },
+        "options": {
+            "archive": "",
+            "block": "",
+            "complete": "",
+            "logout": ""
+        },
+        "status": {
+            "blocked": "Bloqué",
+            "completed": "Terminé",
+            "in_progress": "En cours",
+            "pending": ""
+        },
+        "title": ""
+    },
+    "workorders": {
+        "title": "Ordres de travail"
+    }
+}

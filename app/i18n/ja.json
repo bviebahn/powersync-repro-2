@@ -1,0 +1,176 @@
+{
+    "admin.sidebar.group.user_management": "ユーザー管理",
+    "admin.sidebar.item.logout": "ログアウト",
+    "admin.sidebar.item.users": "ユーザー",
+    "admin.views.user_management.remove_user_from_org.confirmation_message": "{{name}}はあなたの組織から除外されます。確認してください。",
+    "admin.views.user_management.remove_user_from_org.confirmation_title": "このユーザーを組織から削除しますか？",
+    "admin.views.user_management.title": "ユーザー管理",
+    "admin.views.user_management.users_search.placeholder": "ユーザー検索...",
+    "apply": "",
+    "assign_to": "",
+    "assigned_to": "",
+    "batch_actions.actions.ACTIVATE_INSIGHTS": "アクティベート",
+    "batch_actions.actions.ADD_TO_EXISTING_WORK_ORDER": "既存の作業指示に追加",
+    "batch_actions.actions.ADD_TO_WORKORDER": "作業指示書に追加",
+    "batch_actions.actions.ARCHIVE_INSIGHTS": "アーカイブ",
+    "batch_actions.actions.COMPLETE_WORK_ITEMS": "完了",
+    "batch_actions.actions.CREATE_WORK_ORDER": "作業指示を作成する",
+    "batch_actions.validation.all_invalid_one": "選択アイテムは{{action}}できません。",
+    "batch_actions.validation.all_invalid_other": "選択された{{totalCount}}個のアイテムは{{action}}できません。",
+    "batch_actions.validation.cannot_proceed": "この操作を完了できません。",
+    "batch_actions.validation.confirm_proceed": "利用可能なアイテムで続けますか？",
+    "batch_actions.validation.dialog_title.ACTIVATE_INSIGHTS": "インサイト起動",
+    "batch_actions.validation.dialog_title.ADD_TO_EXISTING_WORK_ORDER": "既存の作業指示書に追加",
+    "batch_actions.validation.dialog_title.ARCHIVE_INSIGHTS": "インサイトをアーカイブに移動",
+    "batch_actions.validation.dialog_title.COMPLETE_WORK_ITEMS": "作業項目を完了する",
+    "batch_actions.validation.dialog_title.CREATE_WORK_ORDER": "作業指示を作成する",
+    "batch_actions.validation.failure_reasons.already_completed_one": "作業項目はすでに完了しています。",
+    "batch_actions.validation.failure_reasons.already_completed_other": "いくつかの作業項目はすでに完了しています。",
+    "batch_actions.validation.failure_reasons.insight_already_in_workinsight_one": "インサイトは既に作業指示書の一部です。",
+    "batch_actions.validation.failure_reasons.insight_already_in_workinsight_other": "いくつかのインサイトは既に作業指示書の一部です。",
+    "batch_actions.validation.failure_reasons.must_share_delivery": "すべて同じグループに属する必要があります。",
+    "batch_actions.validation.failure_reasons.part_of_workorder": "いくつかのアイテムはすでに別のプロセスにリンクされています。",
+    "batch_actions.validation.failures_one": "1 アイテムは処理できません。理由：",
+    "batch_actions.validation.failures_other": "{{invalidCount}} 個のアイテムが処理できません。理由：",
+    "batch_actions.validation.summary": "{{totalCount}} 個中 {{validCount}} 個のアイテムを{{action}}しようとしています。",
+    "buttons.add": "追加",
+    "buttons.cancel": "キャンセル",
+    "buttons.complete": "完了",
+    "buttons.continue": "続行",
+    "buttons.create": "作成する",
+    "buttons.delete": "削除",
+    "buttons.next": "次",
+    "buttons.ok": "OK",
+    "clear_all": "",
+    "dashboard": {
+        "work": {
+            "progress_summary_chart_title": "進捗概要",
+            "work_dynamic_chart_title": "ワークダイナミック"
+        }
+    },
+    "empty_list_message": "",
+    "filter_and_sort": "",
+    "grid.archive.activate_insights_failure": "インサイトの復元ができませんでした",
+    "grid.archive.activate_insights_success": "{{ insightsCount }} インサイトが復元されました",
+    "grid.archive.archive_insights_failure": "インサイトをアーカイブできませんでした",
+    "grid.archive.archive_insights_success": "インサイトを無事にアーカイブしました",
+    "grid.archive.title": "アーカイブ内にいます",
+    "grid.options.unarchive_insight": "インサイト ({{selectedRowCount}})の復元",
+    "grid.work_order.assignee.unassigned": "未割り当て",
+    "grid": {
+        "aggregation": {
+            "average": "平均",
+            "max": "MAX",
+            "min": "MIN",
+            "total": "TOTAL"
+        },
+        "create_workorder_dialog": {
+            "add_to_existing_error_toast": "作業指示書の更新中にエラーが発生しました",
+            "add_to_existing_success_toast_other": "{{count}} 件のインサイトが作業指示書 <a>{{workorderName}}</a> に追加されました",
+            "add_to_existing_tab_title": "作業指示書に追加する",
+            "affected_span_length": "影響を受けたスパンの長さ",
+            "affected_veg_vol": "影響を受けた植生量",
+            "assign_to": "担当",
+            "assign_work_items_other": "{{count}} の作業項目を割り当てる",
+            "based_on_other": "{{count}} 件のインサイトに基づく",
+            "cancel": "キャンセル",
+            "create": "作成",
+            "create_error_toast": "作業指示書の作成中にエラーが発生しました。",
+            "create_success_toast": "作業指示 <a>{{workorderName}}</a> が作成されました",
+            "create_tab_title": "作業指示書を作成する",
+            "n_insights_other": "{{count}} 件のインサイト",
+            "name": "作業指示書のタイトル",
+            "name_error": "作業指示は少なくとも2文字でなければなりません",
+            "name_placeholder": "WO123",
+            "notes": "メモを追加する",
+            "notes_placeholder": "詳細な情報を自由に提供してください...",
+            "schedule_work_items_other": "{{count}} の作業項目を予定する",
+            "scheduled": "予定",
+            "scheduled_date_error": "日付または日付範囲が必要です",
+            "scheduled_placeholder": "日付または日付範囲を選択する",
+            "select_workorder": "作業指示書を選択する",
+            "title": "新規作業指示"
+        },
+        "filter": {
+            "all": "すべて",
+            "selected": "選択済み",
+            "visible": "表示"
+        },
+        "insight": "インサイト",
+        "options": {
+            "archive_insight": "インサイト ({{selectedRowCount}})をアーカイブする",
+            "create_workorder": "作業指示書を作成する",
+            "existing_workorder": "既存のWOにインサイトを追加する",
+            "export_all": "すべてをエクスポートする",
+            "export_selected": " ({{selectedRowCount}})をエクスポートする",
+            "logout": "ログアウト"
+        },
+        "search": {
+            "placeholder": "検索..."
+        }
+    },
+    "insights": {
+        "title": "インサイト"
+    },
+    "n_workitems_other": "",
+    "n_workorders_other": "{{count}} 作業指示書",
+    "roles": {
+        "MEMBER": "現場作業員",
+        "ORG_ADMIN": "組織アドミン"
+    },
+    "select": "",
+    "user_management.actions.remove_user_from_org": "除外",
+    "user_management": {
+        "invite_dialog": {
+            "add_more_button": "追加",
+            "email_label": "メールアドレスを入力してください",
+            "invite_explanation_text": "招待状を送信するには、メールアドレスを指定する必要があります。また、ユーザが参加するグループと、ユーザに割り当てるロールを指定することもできます。異なるログイン方法で既存のユーザーを招待する場合、そのユーザーの現在のデータ（ロール、グループ、読み取り専用）が新しい招待データに置き換わります。",
+            "login_method_label": "ログイン方法",
+            "role_label": "役割を選択してください",
+            "submit_button": "招待",
+            "title": "Treelineにユーザーを招待する"
+        },
+        "login_methods": {
+            "google": "Google"
+        }
+    },
+    "user_menu.avatar.name.guest": "ゲストユーザー",
+    "user_menu.item.account_settings": "アカウント設定",
+    "user_menu.item.logout": "ログアウト",
+    "user_menu.item.projects": "プロジェクト",
+    "user_menu.item.send_feedback": "フィードバックを送信する",
+    "user_menu.item.switch_organization": "組織を替える",
+    "user_menu.item.terms_and_policies": "規約・ポリシー",
+    "user_menu.item.user_management": "ユーザー管理",
+    "workitems.bulkComplete": "完了した作業項目",
+    "workitems.complete": "作業項目を完了する",
+    "workitems.title": "作業項目",
+    "workitems": {
+        "card": {
+            "assignee": "担当",
+            "days_left": "{{days}} 日残り",
+            "due_date": "期日",
+            "estimated_work_effort": "見積もり作業量",
+            "n_a": "N/A"
+        },
+        "drawer": {
+            "workitems": "{{ number }} 作業項目"
+        },
+        "options": {
+            "archive": "アーカイブ",
+            "block": "停滞中に設定",
+            "complete": "完了",
+            "logout": "ログアウト"
+        },
+        "status": {
+            "blocked": "停滞中",
+            "completed": "完了",
+            "in_progress": "進行中",
+            "pending": "保留中"
+        },
+        "title": "作業項目"
+    },
+    "workorders": {
+        "title": "作業指示書"
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "admin.sidebar.group.user_management": "User Management",
+    "admin.sidebar.item.logout": "Logout",
+    "admin.sidebar.item.users": "Users",
+    "admin.views.user_management.remove_user_from_org.confirmation_message": "{{name}} will be removed from your organization. Are you sure?",
+    "admin.views.user_management.remove_user_from_org.confirmation_title": "Delete this user from organization?",
+    "admin.views.user_management.title": "User Management",
+    "admin.views.user_management.users_search.placeholder": "Search for users...",
+    "apply": "Apply",
+    "assign_to": "Assign to",
+    "assigned_to": "Assigned to",
+    "batch_actions.actions.ACTIVATE_INSIGHTS": "activate",
+    "batch_actions.actions.ADD_TO_EXISTING_WORK_ORDER": "add to existing work order",
+    "batch_actions.actions.ADD_TO_WORKORDER": "add to a work order",
+    "batch_actions.actions.ARCHIVE_INSIGHTS": "archive",
+    "batch_actions.actions.COMPLETE_WORK_ITEMS": "complete",
+    "batch_actions.actions.CREATE_WORK_ORDER": "create a work order",
+    "batch_actions.validation.all_invalid_one": "The selected item cannot be used to {{action}}.",
+    "batch_actions.validation.all_invalid_other": "None of the {{totalCount}} selected items can be used to {{action}}.",
+    "batch_actions.validation.cannot_proceed": "This action cannot be completed.",
+    "batch_actions.validation.confirm_proceed": "Would you like to continue with the available items?",
+    "batch_actions.validation.dialog_title.ACTIVATE_INSIGHTS": "Activating Insights",
+    "batch_actions.validation.dialog_title.ADD_TO_EXISTING_WORK_ORDER": "Add To Existing Work Order",
+    "batch_actions.validation.dialog_title.ARCHIVE_INSIGHTS": "Archiving Insights",
+    "batch_actions.validation.dialog_title.COMPLETE_WORK_ITEMS": "Complete Work Items",
+    "batch_actions.validation.dialog_title.CREATE_WORK_ORDER": "Create Work Order",
+    "batch_actions.validation.failure_reasons.already_completed_one": "Work item is already completed.",
+    "batch_actions.validation.failure_reasons.already_completed_other": "Some work items are already completed.",
+    "batch_actions.validation.failure_reasons.insight_already_in_workinsight_one": "Insight is already part of work order.",
+    "batch_actions.validation.failure_reasons.insight_already_in_workinsight_other": "Some insights are already part of work orders.",
+    "batch_actions.validation.failure_reasons.must_share_delivery": "All items must belong to the same group.",
+    "batch_actions.validation.failure_reasons.part_of_workorder": "Some items are already linked to another process.",
+    "batch_actions.validation.failures_one": "1 item can't be processed because:",
+    "batch_actions.validation.failures_other": "{{invalidCount}} items can't be processed because:",
+    "batch_actions.validation.summary": "You're about to {{action}} {{validCount}} out of {{totalCount}} selected items.",
+    "buttons.add": "Add",
+    "buttons.cancel": "Cancel",
+    "buttons.complete": "Complete",
+    "buttons.continue": "Continue",
+    "buttons.create": "Create",
+    "buttons.delete": "Delete",
+    "buttons.next": "Next",
+    "buttons.ok": "OK",
+    "clear_all": "Clear All",
+    "dashboard": {
+        "work": {
+            "progress_summary_chart_title": "Progress Summary",
+            "work_dynamic_chart_title": "Work Dynamic"
+        }
+    },
+    "empty_list_message": "There is nothing on your list.",
+    "filter_and_sort": "Filter and Sort",
+    "grid.archive.activate_insights_failure": "Failed to restore insights",
+    "grid.archive.activate_insights_success": "{{ insightsCount }} Insights were restored",
+    "grid.archive.archive_insights_failure": "Failed to archive insights",
+    "grid.archive.archive_insights_success": "Successfully archived insights",
+    "grid.archive.title": "You're in archive",
+    "grid.options.unarchive_insight": "Unarchive Insights ({{selectedRowCount}})",
+    "grid.work_order.assignee.unassigned": "Unassigned",
+    "grid": {
+        "aggregation": {
+            "average": "AVERAGE",
+            "max": "MAX",
+            "min": "MIN",
+            "total": "TOTAL"
+        },
+        "create_workorder_dialog": {
+            "add_to_existing_error_toast": "There was an error updating the Workorder",
+            "add_to_existing_success_toast_one": "{{count}} Insight was added to Workorder <a>{{workorderName}}</a>",
+            "add_to_existing_success_toast_other": "{{count}} Insights were added to Workorder <a>{{workorderName}}</a>",
+            "add_to_existing_tab_title": "Add to Workorder",
+            "affected_span_length": "Affected span length",
+            "affected_veg_vol": "Affected veg. volume",
+            "assign_to": "Assign to",
+            "assign_work_items_one": "Assign {{count}} Workitem to",
+            "assign_work_items_other": "Assign {{count}} Workitems to",
+            "based_on_one": "Based on {{count}} insight",
+            "based_on_other": "Based on {{count}} insights",
+            "cancel": "Cancel",
+            "create": "Create",
+            "create_error_toast": "There was an error creating the Workorder.",
+            "create_success_toast": "Work order <a>{{workorderName}}</a> created",
+            "create_tab_title": "Create Workorder",
+            "n_insights_one": "{{count}} Insight",
+            "n_insights_other": "{{count}} Insights",
+            "name": "Name of Workorder",
+            "name_error": "Workorder must be at least 2 characters",
+            "name_placeholder": "WO123",
+            "notes": "Add a note",
+            "notes_placeholder": "Feel free to provide more details...",
+            "schedule_work_items_one": "Schedule {{count}} Workitem",
+            "schedule_work_items_other": "Schedule {{count}} Workitems",
+            "scheduled": "Scheduled",
+            "scheduled_date_error": "Date or date range is required",
+            "scheduled_placeholder": "Select a date or date range",
+            "select_workorder": "Select a Workorder",
+            "title": "New Workorder"
+        },
+        "filter": {
+            "all": "All",
+            "selected": "Selected",
+            "visible": "Visible"
+        },
+        "insight": "Insight",
+        "options": {
+            "archive_insight": "Archive Insight ({{selectedRowCount}})",
+            "create_workorder": "Create a Workorder",
+            "existing_workorder": "Add Insights to existing WO",
+            "export_all": "Export all",
+            "export_selected": "Export selected ({{selectedRowCount}})",
+            "logout": "Logout"
+        },
+        "search": {
+            "placeholder": "Search..."
+        }
+    },
+    "insights": {
+        "title": "Insights"
+    },
+    "n_workitems_one": "{{count}} Workitem",
+    "n_workitems_other": "{{count}} Workitems",
+    "n_workorders_one": "{{count}} Workorder",
+    "n_workorders_other": "{{count}} Workorders",
+    "roles": {
+        "MEMBER": "Fieldworker",
+        "ORG_ADMIN": "Organization Admin"
+    },
+    "select": "Select",
+    "user_management.actions.remove_user_from_org": "Remove",
+    "user_management": {
+        "invite_dialog": {
+            "add_more_button": "Add more",
+            "email_label": "Enter email address",
+            "invite_explanation_text": "You must specify an email address to send invitations. You may also specify the group you wish for users join and the role they should be assigned. When inviting existing users with a different login method, their current data (role, group, read only) will replace the new invite data.",
+            "login_method_label": "Login method",
+            "role_label": "Select role",
+            "submit_button": "Invite",
+            "title": "Invite users to Treeline"
+        },
+        "login_methods": {
+            "google": "Google"
+        }
+    },
+    "user_menu.avatar.name.guest": "Guest User",
+    "user_menu.item.account_settings": "Account Settings",
+    "user_menu.item.logout": "Logout",
+    "user_menu.item.projects": "Projects",
+    "user_menu.item.send_feedback": "Send Feedback",
+    "user_menu.item.switch_organization": "Switch Organization",
+    "user_menu.item.terms_and_policies": "Terms & Policies",
+    "user_menu.item.user_management": "User Management",
+    "workitems.bulkComplete": "Complete Work items",
+    "workitems.complete": "Complete Work Item",
+    "workitems.title": "Workitems",
+    "workitems": {
+        "card": {
+            "assignee": "Assignee",
+            "days_left": "{{days}} days left",
+            "due_date": "Due date",
+            "estimated_work_effort": "Estimated work effort",
+            "n_a": "N/A"
+        },
+        "drawer": {
+            "workitems": "{{ number }} Work Items"
+        },
+        "options": {
+            "archive": "Archive",
+            "block": "Set to blocked",
+            "complete": "Complete",
+            "logout": "Logout"
+        },
+        "status": {
+            "blocked": "Blocked",
+            "completed": "Completed",
+            "in_progress": "In Progress",
+            "pending": "Pending"
+        },
+        "title": "Work Items"
+    },
+    "workorders": {
+        "title": "Workorders"
+    }
+}
